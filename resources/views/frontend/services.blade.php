@@ -2,7 +2,7 @@
 @section('page-content')
     <main id="main">
         <!-- ======= Hero Section ======= -->
-        <section id="hero" class="d-flex align-items-center">
+        <section id="hero" class="d-flex align-items-center mb-0 ">
             <div class="container">
                 <h1>Services</h1>
             </div>
@@ -12,14 +12,13 @@
         <!-- ======= Services Section ======= -->
         <section id="services" class="services">
             <div class="container">
-
-                <div class="section-title bg-light mb-4 p-2">
+                <div class="section-title mb-4 p-2">
                     {{-- <h2>Services</h2> --}}
                     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                         consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
                         fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
-
+                <br>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch ">
                         <div class="icon-box">

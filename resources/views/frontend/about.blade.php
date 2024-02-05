@@ -2,7 +2,7 @@
 @section('page-content')
     <main id="main">
         <!-- ======= Hero Section ======= -->
-        <section id="hero" class="d-flex align-items-center">
+        <section id="hero" class="d-flex align-items-center ">
             <div class="container">
                 <h1>About Us</h1>
             </div>
