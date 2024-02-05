@@ -14,33 +14,36 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Route::view('/', 'welcome');
+//home
 Route::view('/', 'frontend.home');
-Route::view('about', 'frontend.about');
-Route::view('contact', 'frontend.contact');
+//about
+Route::view('about', 'frontend.about')->name('about');
+//contact
+Route::view('contact', 'frontend.contact')->name('contact');
 //services
-Route::view('services', 'frontend.services');
-Route::view('services/{slug}', 'frontend.service-profile');
+Route::view('services', 'frontend.services')->name('services');
+Route::view('services/{slug}', 'frontend.service-profile')->name('service-profile');
 //departments
-Route::view('departments', 'frontend.departments');
-Route::view('departments/{slug}', 'frontend.department-profile');
+Route::view('departments', 'frontend.departments')->name('departments');
+Route::view('departments/{slug}', 'frontend.department-profile')->name('department-profile');
 //doctors
-Route::view('doctors', 'frontend.doctors');
-Route::view('doctors/{slug}', 'frontend.doctor-profile');
+Route::view('doctors', 'frontend.doctors')->name('doctors');
+Route::view('doctors/{slug}', 'frontend.doctor-profile')->name('doctor-profile');
 //appointment
-Route::view('appointment', 'frontend.appointment');
+Route::view('appointment', 'frontend.appointment')->name('appointment');
 //blogs
-Route::view('blogs', 'frontend.blogs');
-Route::view('blogs/{slug}', 'frontend.blog-profile');
+Route::view('blogs', 'frontend.blogs')->name('blogs');
+Route::view('blogs/{slug}', 'frontend.blog-profile')->name('blog-profile');
 //gallery
-Route::view('gallery', 'frontend.gallery');
+Route::view('gallery', 'frontend.gallery')->name('gallery');
 //faqs
-Route::view('faqs', 'frontend.faqs');
+Route::view('faqs', 'frontend.faqs')->name('faqs');
 //terms
-Route::view('terms', 'frontend.terms');
+Route::view('terms', 'frontend.terms')->name('terms');
 //privacy
-Route::view('privacy', 'frontend.privacy');
+Route::view('privacy', 'frontend.privacy')->name('privacy');
 //404
-Route::view('404', 'frontend.404');
+Route::view('404', 'frontend.404')->name('404');
 
 
 //admin
