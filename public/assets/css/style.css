@@ -1,5 +1,5 @@
 /**
-* Template Name: Medilab
+* Template Name: V-Care
 * Updated: Jan 29 2024 with Bootstrap v5.3.2
 * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
 * Author: BootstrapMade.com
